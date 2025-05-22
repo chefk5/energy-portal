@@ -1,0 +1,49 @@
+# === React / Node ===
+**/node_modules/
+**/dist/
+**/build/
+**/.vite/
+**/.next/
+**/.turbo/
+**/.eslintcache
+**/.cache/
+**/.env
+**/.env.*.local
+**/.env.local
+**/coverage/
+*.log
+
+# === Spring Boot / Java / Maven ===
+**/target/
+**/.mvn/
+**/logs/
+*.log
+*.class
+*.jar
+*.war
+hs_err_pid*
+
+# === IntelliJ IDEA ===
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# === VSCode (if used for frontend) ===
+.vscode/
+
+# === OS-specific ===
+.DS_Store
+Thumbs.db
+
+# === Docker ===
+docker-compose.override.yml
+*.env
+**/.env
+**/.dockerignore
+**/Dockerfile
+
+# === Misc ===
+*.tmp
+*.swp
